@@ -1,48 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="match_parent"
-              android:padding="8dp">
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/station_name"
-            android:id="@+id/textView"
-            android:padding="8dp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/station_name"
+        android:id="@+id/textView"
+        android:padding="8dp" />
+
     <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:id="@+id/editTextStationName"
-            android:padding="8dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/editTextStationName"
+        android:padding="8dp" />
+
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="@string/volume"
-            android:id="@+id/textView2"
-            android:padding="8dp"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/volume"
+        android:id="@+id/textView2"
+        android:padding="8dp" />
+
     <SeekBar
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/seekBarVolume"
-            android:padding="8dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBarVolume"
+        android:padding="8dp" />
+
     <CheckBox
-            android:text="@string/use_volume_buttons_to_talk"
-            android:id="@+id/checkBoxUseVolumeButtonsToTalk"
-            style="@style/SettingsDialogCheckBox"/>
+        android:text="@string/use_volume_buttons_to_talk"
+        android:id="@+id/checkBoxUseVolumeButtonsToTalk"
+        style="@style/SettingsDialogCheckBox" />
+
     <CheckBox
-            android:text="@string/check_wifi_status_on_start"
-            android:id="@+id/checkBoxCheckWiFiStatusOnStart"
-            style="@style/SettingsDialogCheckBox"/>
+        android:text="@string/check_wifi_status_on_start"
+        android:id="@+id/checkBoxCheckWiFiStatusOnStart"
+        style="@style/SettingsDialogCheckBox" />
+
     <CheckBox
-            android:text="@string/roger_beep"
-            android:id="@+id/checkBoxRogerBeep"
-            style="@style/SettingsDialogCheckBox"/>
+        android:text="@string/roger_beep"
+        android:id="@+id/checkBoxRogerBeep"
+        style="@style/SettingsDialogCheckBox" />
+
     <CheckBox
-            android:text="@string/back_button_exits"
-            android:id="@+id/checkBoxBackButtonExits"
-            style="@style/SettingsDialogCheckBox"/>
+        android:text="@string/back_button_exits"
+        android:id="@+id/checkBoxBackButtonExits"
+        style="@style/SettingsDialogCheckBox" />
 </LinearLayout>
